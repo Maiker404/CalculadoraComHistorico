@@ -11,10 +11,9 @@ import javafx.stage.Stage;
 public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("view/Tela.fxml"));
-        
+        Parent root = FXMLLoader.load(getClass().getResource("br/edu/ifro/view/Tela.fxml"));
         Scene scene = new Scene(root);
-        
+        stage.setTitle("Calculadora");
         stage.setScene(scene);
         stage.show();
     }

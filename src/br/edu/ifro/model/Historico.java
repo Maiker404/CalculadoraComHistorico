@@ -1,4 +1,4 @@
-package br.edu.ifro.view;
+package br.edu.ifro.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
