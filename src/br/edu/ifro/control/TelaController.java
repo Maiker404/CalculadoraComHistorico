@@ -5,31 +5,126 @@
  */
 package br.edu.ifro.control;
 
+import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXTreeView;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 /**
  *
  * @author 76220842200
  */
 public class TelaController implements Initializable {
-    
-    @FXML
+
     private Label label;
-    
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
-    }
-    
+    private JFXButton btnDiv;
+    @FXML
+    private JFXButton btnMult;
+    @FXML
+    private JFXButton btnMod;
+    @FXML
+    private JFXButton btnsub;
+    @FXML
+    private JFXButton btnSoma;
+    @FXML
+    private JFXButton btnPonto;
+    @FXML
+    private JFXButton btnResult;
+    @FXML
+    private JFXButton btnPorc;
+    @FXML
+    private JFXTreeView<?> tbHisto;
+    @FXML
+    private TextField txtCalc;
+    @FXML
+    private Label lblProc;
+    @FXML
+    private Label lblAviso;
+
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
-    
+    }
+
+    @FXML
+    private void zero(ActionEvent event) {
+    }
+
+    @FXML
+    private void um(ActionEvent event) {
+    }
+
+    @FXML
+    private void dois(ActionEvent event) {
+    }
+
+    @FXML
+    private void tres(ActionEvent event) {
+    }
+
+    @FXML
+    private void quatro(ActionEvent event) {
+    }
+
+    @FXML
+    private void cinco(ActionEvent event) {
+    }
+
+    @FXML
+    private void seis(ActionEvent event) {
+    }
+
+    @FXML
+    private void sete(ActionEvent event) {
+    }
+
+    @FXML
+    private void oito(ActionEvent event) {
+    }
+
+    @FXML
+    private void nove(ActionEvent event) {
+    }
+
+    @FXML
+    private void subtrair(ActionEvent event) {
+    }
+
+    @FXML
+    private void multiplicar(ActionEvent event) {
+    }
+
+    @FXML
+    private void soma(ActionEvent event) {
+    }
+
+    @FXML
+    private void clear(ActionEvent event) {
+    }
+
+    @FXML
+    private void ponto(ActionEvent event) {
+    }
+
+    @FXML
+    private void mod(ActionEvent event) {
+    }
+
+    @FXML
+    private void dividir(ActionEvent event) {
+    }
+
+    @FXML
+    private void porcentagem(ActionEvent event) {
+    }
+
+    @FXML
+    private void result(ActionEvent event) {
+    }
+
 }

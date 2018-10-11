@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="897.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.control.TelaController">
+   <children>
+      <JFXButton layoutX="29.0" layoutY="159.0" onAction="#clear" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="C">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnDiv" layoutX="112.0" layoutY="159.0" onAction="#dividir" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="/">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnMult" layoutX="195.0" layoutY="159.0" onAction="#multiplicar" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="X">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnMod" layoutX="276.0" layoutY="159.0" onAction="#mod" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="Mod">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="112.0" layoutY="224.0" onAction="#oito" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="8">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="29.0" layoutY="224.0" onAction="#sete" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="7">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="112.0" layoutY="291.0" onAction="#cinco" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="5">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnsub" layoutX="276.0" layoutY="293.0" onAction="#subtrair" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="-">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="29.0" layoutY="291.0" onAction="#quatro" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="112.0" layoutY="356.0" onAction="#dois" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="2">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="29.0" layoutY="356.0" onAction="#um" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="1">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnSoma" layoutX="276.0" layoutY="358.0" onAction="#soma" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="+">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="29.0" layoutY="422.0" onAction="#zero" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnPonto" layoutX="112.0" layoutY="422.0" onAction="#ponto" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text=".">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnResult" layoutX="196.0" layoutY="424.0" onAction="#result" prefHeight="55.0" prefWidth="153.0" style="-fx-background-color: #dddddd;" text="=">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="195.0" layoutY="293.0" onAction="#seis" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="6">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="195.0" layoutY="224.0" onAction="#nove" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="9">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="195.0" layoutY="358.0" onAction="#tres" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="3">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnPorc" layoutX="276.0" layoutY="224.0" onAction="#porcentagem" prefHeight="55.0" prefWidth="73.0" style="-fx-background-color: #dddddd;" text="\%">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXButton>
+      <JFXTreeView fx:id="tbHisto" layoutX="401.0" layoutY="58.0" prefHeight="421.0" prefWidth="469.0" />
+      <Label layoutX="401.0" layoutY="23.0" prefHeight="17.0" prefWidth="112.0" text="Historico">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCalc" alignment="CENTER_RIGHT" editable="false" layoutX="28.0" layoutY="90.0" prefHeight="35.0" prefWidth="320.0" style="-fx-background-color: #dddddd; fx-fill: black;" />
+      <Label fx:id="lblProc" layoutX="28.0" layoutY="41.0" prefHeight="35.0" prefWidth="320.0" text="Processo">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAviso" layoutX="28.0" layoutY="132.0" prefHeight="12.0" prefWidth="320.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
