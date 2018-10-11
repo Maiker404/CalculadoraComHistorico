@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.control.LoginController">
-    
+
+<AnchorPane id="AnchorPane" prefHeight="487.0" prefWidth="522.0" style="-fx-background-color: grey;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.edu.ifro.control.LoginController">
+   <children>
+      <JFXTextField fx:id="txtUsuario" layoutX="148.0" layoutY="150.0" prefHeight="25.0" prefWidth="268.0" promptText="Usuario" />
+      <JFXTextField fx:id="txtSenha" layoutX="148.0" layoutY="228.0" prefHeight="25.0" prefWidth="268.0" promptText="Senha" />
+      <JFXButton fx:id="btnLogar" layoutX="148.0" layoutY="315.0" onAction="#logar" prefHeight="39.0" prefWidth="268.0" style="-fx-background-color: cyan;" text="Logar" />
+      <JFXButton fx:id="btnSair" layoutX="151.0" layoutY="396.0" onAction="#sair" prefHeight="39.0" prefWidth="268.0" style="-fx-background-color: cyan;" text="Sair" />
+   </children>
 </AnchorPane>

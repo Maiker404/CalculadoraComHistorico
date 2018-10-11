@@ -5,8 +5,12 @@
  */
 package br.edu.ifro.control;
 
+import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXTextField;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 /**
@@ -16,12 +20,30 @@ import javafx.fxml.Initializable;
  */
 public class LoginController implements Initializable {
 
-    /**
-     * Initializes the controller class.
-     */
+    @FXML
+    private JFXTextField txtUsuario;
+    @FXML
+    private JFXTextField txtSenha;
+    @FXML
+    private JFXButton btnLogar;
+    @FXML
+    private JFXButton btnSair;
+
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+       
     }    
+
+    @FXML
+    private void logar(ActionEvent event) {
+        
+    }
+
+    @FXML
+    private void sair(ActionEvent event) {
+        System.exit(0);
+        
+    }
     
 }
