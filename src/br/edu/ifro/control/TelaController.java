@@ -46,9 +46,14 @@ public class TelaController implements Initializable {
     private Label lblProc;
     @FXML
     private Label lblAviso;
+    
+    private double valorUm,valorDois;
+    private String operador;
+    private boolean ponto=false;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        this.txtCalc.setText("0");
     }
 
     @FXML
